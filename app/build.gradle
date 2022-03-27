@@ -54,5 +54,7 @@ dependencies {
 //    implementation "com.squareup.retrofit2:converter-moshi:$moshiRetrofitConverterVer"
 
     // implement local project
-    implementation project(':moshi-helper-android')
+//    implementation project(':moshi-helper-android')
+    implementation 'com.github.sanjaydraws:MoshiHelper:1.0.0'
+
 }

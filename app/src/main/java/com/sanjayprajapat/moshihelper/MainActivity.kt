@@ -4,13 +4,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import com.google.gson.Gson
-import com.sanjayprajapat.moshi_helper_android.utils.MoshiHelper
 import com.sanjayprajapat.moshihelper.models.Burger
 import com.sanjayprajapat.moshihelper.models.Restaurant
 import com.sanjayprajapat.moshihelper.models.User
 import com.squareup.moshi.JsonAdapter
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
+import com.sanjayprajapat.moshi_helper_android.utils.MoshiHelper
+
+
 class MainActivity : AppCompatActivity() {
     companion object{
         const val TAG = "MainActivity"
@@ -25,11 +27,11 @@ class MainActivity : AppCompatActivity() {
     private val moshiHelper by lazy {
         MoshiHelper(moshi)
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val gson = Gson()
-
 
         val json =
             """{
