@@ -55,6 +55,6 @@ dependencies {
 
     // implement local project
     implementation project(':moshi-helper-android')
-//    implementation 'com.github.sanjaydraws:MoshiHelper:1.0.1'
+//    implementation 'com.github.sanjaydraws:MoshiHelper:1.0.2'
 
 }
