@@ -2,14 +2,20 @@ package com.sanjayprajapat.moshi_helper_android.utils
 
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types
+import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 
 
 /**
  * @author Sanjay Prajapt
  * Date: 26-03-2022
  * */
-class MoshiHelper(val moshi: Moshi?) {
+class MoshiHelper() {
 
+    companion object{
+        val moshi: Moshi? = Moshi.Builder()
+        .add(KotlinJsonAdapterFactory()) // allow to based on kotlin reflection to serialize any kotlin class
+        .build()
+    }
     /**
      * To convert object to json
      * @param t  is object type
