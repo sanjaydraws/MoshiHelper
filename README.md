@@ -2,8 +2,6 @@
 
 # MoshiHelper
 
-[![Build Status](https://jitpack.io/v/sanjaydraws/MoshiHelper.svg)](https://jitpack.io/v/sanjaydraws/MoshiHelper.svg)
-[![Star](https://img.shields.io/github/stars/sanjaydraws/MoshiHelper.svg)](https://github.com/sanjaydraws/MoshiHelper)
 ![latestVersion](https://img.shields.io/github/v/tag/sanjaydraws/MoshiHelper)
 <a href="https://twitter.com/sanjay_draws" target="_blank">
 <img alt="Twitter: sanjay_draws" src="https://img.shields.io/twitter/follow/sanjay_draws.svg?style=social" />
