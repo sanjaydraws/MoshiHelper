@@ -2,13 +2,13 @@
 
 # MoshiHelper
 
-![buildStatus](https://img.shields.io/github/workflow/status/sanjaydraws/MoshiHelper/Java%20CI%20with%20Gradle?style=plastic)
+![buildStatus](https://img.shields.io/github/workflow/status/sanjaydraws/MoshiHelper/Publish?style=plastic)
 ![latestVersion](https://img.shields.io/github/v/tag/sanjaydraws/MoshiHelper)
 <a href="https://twitter.com/sanjay_draws" target="_blank">
 <img alt="Twitter: sanjay_draws" src="https://img.shields.io/twitter/follow/sanjay_draws.svg?style=social" />
 </a>
 
-> Moshi Helper
+
 
 # Implementation
 
